@@ -17,3 +17,14 @@ function findUnique(str){
     }
     return uniqueStr;
 }
+
+function doOperation(x,y,operator){
+    return operator(x,y);
+}
+
+function multiply(x,y){
+    return x*y;
+}
+function power(x,y){
+    return Math.pow(x,y);
+}
